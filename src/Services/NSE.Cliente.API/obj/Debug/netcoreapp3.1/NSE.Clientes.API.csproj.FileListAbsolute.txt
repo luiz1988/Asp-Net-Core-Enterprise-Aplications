@@ -1,0 +1,5 @@
+C:\Users\luiz.salles\source\repos\NerdStoreEnterprise\src\Services\NSE.Cliente.API\obj\Debug\netcoreapp3.1\NSE.Clientes.API.csproj.AssemblyReference.cache
+C:\Users\luiz.salles\source\repos\NerdStoreEnterprise\src\Services\NSE.Cliente.API\obj\Debug\netcoreapp3.1\NSE.Clientes.API.AssemblyInfoInputs.cache
+C:\Users\luiz.salles\source\repos\NerdStoreEnterprise\src\Services\NSE.Cliente.API\obj\Debug\netcoreapp3.1\NSE.Clientes.API.AssemblyInfo.cs
+C:\Users\luiz.salles\source\repos\NerdStoreEnterprise\src\Services\NSE.Cliente.API\obj\Debug\netcoreapp3.1\NSE.Clientes.API.csproj.CoreCompileInputs.cache
+C:\Users\luiz.salles\source\repos\NerdStoreEnterprise\src\Services\NSE.Cliente.API\obj\Debug\netcoreapp3.1\NSE.Clientes.API.MvcApplicationPartsAssemblyInfo.cache

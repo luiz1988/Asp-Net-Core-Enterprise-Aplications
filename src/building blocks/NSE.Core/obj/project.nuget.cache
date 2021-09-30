@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "V6buHSFf9jgTaJEYtTIN0xi7vNQOFcVdpq4bbHcdsY5t82AvgshcXmKgyP5Qg67Wa1yNJSIQ9UGpifhzTUb7UA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\luiz.salles\\source\\repos\\NerdStoreEnterprise\\src\\building blocks\\NSE.Core\\NSE.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\luiz.salles\\.nuget\\packages\\fluentvalidation\\10.3.3\\fluentvalidation.10.3.3.nupkg.sha512",
+    "C:\\Users\\luiz.salles\\.nuget\\packages\\mediatr\\8.0.1\\mediatr.8.0.1.nupkg.sha512",
+    "C:\\Users\\luiz.salles\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\luiz.salles\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\luiz.salles\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

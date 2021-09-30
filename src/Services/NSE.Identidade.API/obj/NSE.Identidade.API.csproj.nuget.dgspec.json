@@ -1,0 +1,444 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\luiz.salles\\source\\repos\\NerdStoreEnterprise\\src\\Services\\NSE.Identidade.API\\NSE.Identidade.API.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\luiz.salles\\source\\repos\\NerdStoreEnterprise\\src\\building blocks\\NSE.Core\\NSE.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\luiz.salles\\source\\repos\\NerdStoreEnterprise\\src\\building blocks\\NSE.Core\\NSE.Core.csproj",
+        "projectName": "NSE.Core",
+        "projectPath": "C:\\Users\\luiz.salles\\source\\repos\\NerdStoreEnterprise\\src\\building blocks\\NSE.Core\\NSE.Core.csproj",
+        "packagesPath": "C:\\Users\\luiz.salles\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\luiz.salles\\source\\repos\\NerdStoreEnterprise\\src\\building blocks\\NSE.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\luiz.salles\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[10.3.3, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "mediatr": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\luiz.salles\\source\\repos\\NerdStoreEnterprise\\src\\building blocks\\NSE.MessageBus\\NSE.MessageBus.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\luiz.salles\\source\\repos\\NerdStoreEnterprise\\src\\building blocks\\NSE.MessageBus\\NSE.MessageBus.csproj",
+        "projectName": "NSE.MessageBus",
+        "projectPath": "C:\\Users\\luiz.salles\\source\\repos\\NerdStoreEnterprise\\src\\building blocks\\NSE.MessageBus\\NSE.MessageBus.csproj",
+        "packagesPath": "C:\\Users\\luiz.salles\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\luiz.salles\\source\\repos\\NerdStoreEnterprise\\src\\building blocks\\NSE.MessageBus\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\luiz.salles\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\luiz.salles\\source\\repos\\NerdStoreEnterprise\\src\\building blocks\\NSE.Core\\NSE.Core.csproj": {
+                "projectPath": "C:\\Users\\luiz.salles\\source\\repos\\NerdStoreEnterprise\\src\\building blocks\\NSE.Core\\NSE.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "EasyNetQ": {
+              "target": "Package",
+              "version": "[5.1.1, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Polly": {
+              "target": "Package",
+              "version": "[7.2.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\luiz.salles\\source\\repos\\NerdStoreEnterprise\\src\\building blocks\\NSE.WebAPI.Core\\NSE.WebAPI.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\luiz.salles\\source\\repos\\NerdStoreEnterprise\\src\\building blocks\\NSE.WebAPI.Core\\NSE.WebAPI.Core.csproj",
+        "projectName": "NSE.WebAPI.Core",
+        "projectPath": "C:\\Users\\luiz.salles\\source\\repos\\NerdStoreEnterprise\\src\\building blocks\\NSE.WebAPI.Core\\NSE.WebAPI.Core.csproj",
+        "packagesPath": "C:\\Users\\luiz.salles\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\luiz.salles\\source\\repos\\NerdStoreEnterprise\\src\\building blocks\\NSE.WebAPI.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\luiz.salles\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[8.6.2, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\luiz.salles\\source\\repos\\NerdStoreEnterprise\\src\\Services\\NSE.Clientes.API\\NSE.Clientes.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\luiz.salles\\source\\repos\\NerdStoreEnterprise\\src\\Services\\NSE.Clientes.API\\NSE.Clientes.API.csproj",
+        "projectName": "NSE.Clientes.API",
+        "projectPath": "C:\\Users\\luiz.salles\\source\\repos\\NerdStoreEnterprise\\src\\Services\\NSE.Clientes.API\\NSE.Clientes.API.csproj",
+        "packagesPath": "C:\\Users\\luiz.salles\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\luiz.salles\\source\\repos\\NerdStoreEnterprise\\src\\Services\\NSE.Clientes.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\luiz.salles\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\luiz.salles\\source\\repos\\NerdStoreEnterprise\\src\\building blocks\\NSE.Core\\NSE.Core.csproj": {
+                "projectPath": "C:\\Users\\luiz.salles\\source\\repos\\NerdStoreEnterprise\\src\\building blocks\\NSE.Core\\NSE.Core.csproj"
+              },
+              "C:\\Users\\luiz.salles\\source\\repos\\NerdStoreEnterprise\\src\\building blocks\\NSE.MessageBus\\NSE.MessageBus.csproj": {
+                "projectPath": "C:\\Users\\luiz.salles\\source\\repos\\NerdStoreEnterprise\\src\\building blocks\\NSE.MessageBus\\NSE.MessageBus.csproj"
+              },
+              "C:\\Users\\luiz.salles\\source\\repos\\NerdStoreEnterprise\\src\\building blocks\\NSE.WebAPI.Core\\NSE.WebAPI.Core.csproj": {
+                "projectPath": "C:\\Users\\luiz.salles\\source\\repos\\NerdStoreEnterprise\\src\\building blocks\\NSE.WebAPI.Core\\NSE.WebAPI.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Abstractions": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.10.8, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.3.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\luiz.salles\\source\\repos\\NerdStoreEnterprise\\src\\Services\\NSE.Identidade.API\\NSE.Identidade.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\luiz.salles\\source\\repos\\NerdStoreEnterprise\\src\\Services\\NSE.Identidade.API\\NSE.Identidade.API.csproj",
+        "projectName": "NSE.Identidade.API",
+        "projectPath": "C:\\Users\\luiz.salles\\source\\repos\\NerdStoreEnterprise\\src\\Services\\NSE.Identidade.API\\NSE.Identidade.API.csproj",
+        "packagesPath": "C:\\Users\\luiz.salles\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\luiz.salles\\source\\repos\\NerdStoreEnterprise\\src\\Services\\NSE.Identidade.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\luiz.salles\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\luiz.salles\\source\\repos\\NerdStoreEnterprise\\src\\building blocks\\NSE.WebAPI.Core\\NSE.WebAPI.Core.csproj": {
+                "projectPath": "C:\\Users\\luiz.salles\\source\\repos\\NerdStoreEnterprise\\src\\building blocks\\NSE.WebAPI.Core\\NSE.WebAPI.Core.csproj"
+              },
+              "C:\\Users\\luiz.salles\\source\\repos\\NerdStoreEnterprise\\src\\Services\\NSE.Clientes.API\\NSE.Clientes.API.csproj": {
+                "projectPath": "C:\\Users\\luiz.salles\\source\\repos\\NerdStoreEnterprise\\src\\Services\\NSE.Clientes.API\\NSE.Clientes.API.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Abstractions": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.10.14, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.3.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
