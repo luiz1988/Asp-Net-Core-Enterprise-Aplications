@@ -13,13 +13,13 @@ namespace NSE.WebApp.MVC.Service
         private readonly HttpClient _httpClient;
         public CatalogoService(HttpClient httpClient, IOptions<AppSettings> settings)
         {
-            httpClient.BaseAddress = new Uri(settings.Value.CatalogoUrl); 
+            httpClient.BaseAddress = new Uri(settings.Value.CatalogoUrl);
 
             _httpClient = httpClient;
         }
         public  async Task<ProdutoViewModel> ObterPorId(Guid id)
         {
-            var response = await _httpClient.GetAsync("/Catalogo/produtos/{id}");
+            var response = await _httpClient.GetAsync($"/catalogo/produtos/{id}");
 
             TratarErrosResponse(response);
 
@@ -28,7 +28,7 @@ namespace NSE.WebApp.MVC.Service
 
         public async Task<IEnumerable<ProdutoViewModel>> ObterTodos()
         {
-            var response = await _httpClient.GetAsync("/Catalogo/produtos/");
+            var response = await _httpClient.GetAsync("/catalogo/produtos/");
 
             TratarErrosResponse(response);
 

@@ -33,7 +33,7 @@ namespace NSE.WebApp.MVC.Controllers
         {
             //var teste = new HttpResponseMessage();
             //throw new CustomHttpRequestException(teste.StatusCode);
-
+            usuarioRegistro.Cpf = usuarioRegistro.Cpf.Replace(".", "").Replace("-", "");
 
             //return new StatusCodeResult(401);
             if (!ModelState.IsValid)
@@ -83,7 +83,7 @@ namespace NSE.WebApp.MVC.Controllers
             await RealizarLogin(resposta);
 
             if (string.IsNullOrEmpty(returnUrl))
-                return RedirectToAction("Index", "Home");
+                return RedirectToAction("Index", "Catalogo");
 
             return LocalRedirect(returnUrl);
         }

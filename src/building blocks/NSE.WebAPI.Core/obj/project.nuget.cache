@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0r5iLHfZ7QY9Lb/uOjql3RcmeiJ+s2zGJ7/UWAd3DOrxInMVR4B+MB5yGJxqcUuZ5qTtgGBMTBxm3lb1tyEOHQ==",
+  "dgSpecHash": "Mp9UzNeLOKMRBi+ijkRA1IIJeXeGi1jVtAxJEDzjqAHicRclb3f8G4dyvQr+lDT1TinX+iQbZV7zTm+9yJzjAg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\luiz.salles\\source\\repos\\NerdStoreEnterprise\\src\\building blocks\\NSE.WebAPI.Core\\NSE.WebAPI.Core.csproj",
+  "projectFilePath": "C:\\Users\\luiz.salles\\source\\repos\\Asp-Net-Core-Enterprise-Aplications\\src\\building blocks\\NSE.WebAPI.Core\\NSE.WebAPI.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\luiz.salles\\.nuget\\packages\\fluentvalidation\\8.6.2\\fluentvalidation.8.6.2.nupkg.sha512",
     "C:\\Users\\luiz.salles\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.1.3\\microsoft.aspnetcore.authentication.jwtbearer.3.1.3.nupkg.sha512",

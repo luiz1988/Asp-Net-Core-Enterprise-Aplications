@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\luiz.salles\\source\\repos\\NerdStoreEnterprise\\src\\Services\\NSE.Pagamento.API\\NSE.Pagamento.API.csproj": {}
+    "C:\\Users\\luiz.salles\\source\\repos\\Asp-Net-Core-Enterprise-Aplications\\src\\Services\\NSE.Pagamento.API\\NSE.Pagamento.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\luiz.salles\\source\\repos\\NerdStoreEnterprise\\src\\Services\\NSE.Pagamento.API\\NSE.Pagamento.API.csproj": {
+    "C:\\Users\\luiz.salles\\source\\repos\\Asp-Net-Core-Enterprise-Aplications\\src\\Services\\NSE.Pagamento.API\\NSE.Pagamento.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\luiz.salles\\source\\repos\\NerdStoreEnterprise\\src\\Services\\NSE.Pagamento.API\\NSE.Pagamento.API.csproj",
+        "projectUniqueName": "C:\\Users\\luiz.salles\\source\\repos\\Asp-Net-Core-Enterprise-Aplications\\src\\Services\\NSE.Pagamento.API\\NSE.Pagamento.API.csproj",
         "projectName": "NSE.Pagamento.API",
-        "projectPath": "C:\\Users\\luiz.salles\\source\\repos\\NerdStoreEnterprise\\src\\Services\\NSE.Pagamento.API\\NSE.Pagamento.API.csproj",
+        "projectPath": "C:\\Users\\luiz.salles\\source\\repos\\Asp-Net-Core-Enterprise-Aplications\\src\\Services\\NSE.Pagamento.API\\NSE.Pagamento.API.csproj",
         "packagesPath": "C:\\Users\\luiz.salles\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\luiz.salles\\source\\repos\\NerdStoreEnterprise\\src\\Services\\NSE.Pagamento.API\\obj\\",
+        "outputPath": "C:\\Users\\luiz.salles\\source\\repos\\Asp-Net-Core-Enterprise-Aplications\\src\\Services\\NSE.Pagamento.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -66,7 +66,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

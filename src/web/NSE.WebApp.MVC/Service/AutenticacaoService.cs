@@ -2,7 +2,10 @@
 using NSE.WebApp.MVC.Extentions;
 using NSE.WebApp.MVC.Models;
 using System;
+using System.Net;
 using System.Net.Http;
+using System.Net.Security;
+using System.Security.Cryptography.X509Certificates;
 using System.Threading.Tasks;
 
 namespace NSE.WebApp.MVC.Service
@@ -14,7 +17,7 @@ namespace NSE.WebApp.MVC.Service
 
         public AutenticacaoService(HttpClient httpClient, IOptions<AppSettings> settings)
         {
-           httpClient.BaseAddress = new Uri(settings.Value.AutenticacaoUrl); //Define o endereço base do nosso HttpClient como sendo o da url de AutenticacaoUrl presente no arquivo appsettings.
+            httpClient.BaseAddress = new Uri(settings.Value.AutenticacaoUrl);
 
             _httpClient = httpClient;
         }
@@ -24,7 +27,6 @@ namespace NSE.WebApp.MVC.Service
             var loginContent = ObterConteudo(usuarioLogin);
 
             var response = await _httpClient.PostAsync("/api/identidade/autenticar", loginContent);
-
 
             if (!TratarErrosResponse(response))
             {

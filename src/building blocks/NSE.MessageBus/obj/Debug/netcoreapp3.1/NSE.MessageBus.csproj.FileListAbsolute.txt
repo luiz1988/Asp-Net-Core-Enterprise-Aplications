@@ -10,3 +10,16 @@ C:\Users\luiz.salles\source\repos\NerdStoreEnterprise\src\building blocks\NSE.Me
 C:\Users\luiz.salles\source\repos\NerdStoreEnterprise\src\building blocks\NSE.MessageBus\obj\Debug\netcoreapp3.1\NSE.MessageBus.csproj.CopyComplete
 C:\Users\luiz.salles\source\repos\NerdStoreEnterprise\src\building blocks\NSE.MessageBus\obj\Debug\netcoreapp3.1\NSE.MessageBus.dll
 C:\Users\luiz.salles\source\repos\NerdStoreEnterprise\src\building blocks\NSE.MessageBus\obj\Debug\netcoreapp3.1\NSE.MessageBus.pdb
+C:\Users\luiz.salles\source\repos\Asp-Net-Core-Enterprise-Aplications\src\building blocks\NSE.MessageBus\bin\Debug\netcoreapp3.1\NSE.MessageBus.deps.json
+C:\Users\luiz.salles\source\repos\Asp-Net-Core-Enterprise-Aplications\src\building blocks\NSE.MessageBus\bin\Debug\netcoreapp3.1\NSE.MessageBus.dll
+C:\Users\luiz.salles\source\repos\Asp-Net-Core-Enterprise-Aplications\src\building blocks\NSE.MessageBus\bin\Debug\netcoreapp3.1\NSE.MessageBus.pdb
+C:\Users\luiz.salles\source\repos\Asp-Net-Core-Enterprise-Aplications\src\building blocks\NSE.MessageBus\bin\Debug\netcoreapp3.1\NSE.Core.dll
+C:\Users\luiz.salles\source\repos\Asp-Net-Core-Enterprise-Aplications\src\building blocks\NSE.MessageBus\bin\Debug\netcoreapp3.1\NSE.Core.pdb
+C:\Users\luiz.salles\source\repos\Asp-Net-Core-Enterprise-Aplications\src\building blocks\NSE.MessageBus\obj\Debug\netcoreapp3.1\NSE.MessageBus.csproj.AssemblyReference.cache
+C:\Users\luiz.salles\source\repos\Asp-Net-Core-Enterprise-Aplications\src\building blocks\NSE.MessageBus\obj\Debug\netcoreapp3.1\NSE.MessageBus.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\luiz.salles\source\repos\Asp-Net-Core-Enterprise-Aplications\src\building blocks\NSE.MessageBus\obj\Debug\netcoreapp3.1\NSE.MessageBus.AssemblyInfoInputs.cache
+C:\Users\luiz.salles\source\repos\Asp-Net-Core-Enterprise-Aplications\src\building blocks\NSE.MessageBus\obj\Debug\netcoreapp3.1\NSE.MessageBus.AssemblyInfo.cs
+C:\Users\luiz.salles\source\repos\Asp-Net-Core-Enterprise-Aplications\src\building blocks\NSE.MessageBus\obj\Debug\netcoreapp3.1\NSE.MessageBus.csproj.CoreCompileInputs.cache
+C:\Users\luiz.salles\source\repos\Asp-Net-Core-Enterprise-Aplications\src\building blocks\NSE.MessageBus\obj\Debug\netcoreapp3.1\NSE.MessageBus.csproj.CopyComplete
+C:\Users\luiz.salles\source\repos\Asp-Net-Core-Enterprise-Aplications\src\building blocks\NSE.MessageBus\obj\Debug\netcoreapp3.1\NSE.MessageBus.dll
+C:\Users\luiz.salles\source\repos\Asp-Net-Core-Enterprise-Aplications\src\building blocks\NSE.MessageBus\obj\Debug\netcoreapp3.1\NSE.MessageBus.pdb

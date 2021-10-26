@@ -52,6 +52,15 @@ namespace NSE.Identidade.API.Controllers
                 EmailConfirmed = true
             };
 
+            //try
+            //{
+            //    var teste = await _userManager.CreateAsync(user, usuarioRegistro.Senha);
+            //}
+            //catch (Exception ex)
+            //{
+            //    throw ex;
+            //}
+
             var result = await _userManager.CreateAsync(user, usuarioRegistro.Senha);
 
             if (result.Succeeded)
@@ -180,10 +189,10 @@ namespace NSE.Identidade.API.Controllers
                 var teste = await _bus.RequestAsync<UsuarioRegistradoIntegrationEvent, ResponseMessage>(usuarioRegistrado);
                 return teste;
             }
-            catch { 
-
+            catch (Exception ex)
+            { 
                 await _userManager.DeleteAsync(usuario);
-                throw ;
+                throw ex;
             }
         }
     }

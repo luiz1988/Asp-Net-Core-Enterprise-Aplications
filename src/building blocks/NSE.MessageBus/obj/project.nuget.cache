@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NcNbz3okXJmZl+e/0c/CKJ1woRR7tlhntVEiKiDRr5AwnT1jz0u08gBXneeq7dbUHrtVWfxDqbtJMreFnaSo1w==",
+  "dgSpecHash": "H3FjgpPGHTS68TCt8hjt2dZjCFNBtzo3ywKrcbUuJzqHfKQW6q8kbP2thqMhBII4vsAcvF4UmBOovb81nhCfiw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\luiz.salles\\source\\repos\\NerdStoreEnterprise\\src\\building blocks\\NSE.MessageBus\\NSE.MessageBus.csproj",
+  "projectFilePath": "C:\\Users\\luiz.salles\\source\\repos\\Asp-Net-Core-Enterprise-Aplications\\src\\building blocks\\NSE.MessageBus\\NSE.MessageBus.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\luiz.salles\\.nuget\\packages\\easynetq\\5.1.1\\easynetq.5.1.1.nupkg.sha512",
     "C:\\Users\\luiz.salles\\.nuget\\packages\\fluentvalidation\\10.3.3\\fluentvalidation.10.3.3.nupkg.sha512",

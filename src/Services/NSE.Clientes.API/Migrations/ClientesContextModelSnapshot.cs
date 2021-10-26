@@ -92,7 +92,7 @@ namespace NSE.Clientes.API.Migrations
                                 .IsRequired()
                                 .HasColumnName("Cpf")
                                 .HasColumnType("varchar(11)")
-                                .HasMaxLength(11);
+                                .HasMaxLength(15);
 
                             b1.HasKey("ClienteId");
 

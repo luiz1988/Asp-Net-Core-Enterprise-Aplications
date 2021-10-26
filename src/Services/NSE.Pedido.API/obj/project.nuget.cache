@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KgDmtzHbM2rDDN9U92qt01AkM+AyQFokMsTJqzM5eUwyyV/xK9ZTc619v5nZahi/QYWYXS4W89EpWoEnowhR6g==",
+  "dgSpecHash": "uRHEUV9w0Jbpw4q5bDIgw+qlCc2ibNwBawE+HMTQ2ATKPZ+Eu5Ay3S5vLTwR8bigfAeYFivq1uZXPX+/duG8pQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\luiz.salles\\source\\repos\\NerdStoreEnterprise\\src\\Services\\NSE.Pedido.API\\NSE.Pedido.API.csproj",
+  "projectFilePath": "C:\\Users\\luiz.salles\\source\\repos\\Asp-Net-Core-Enterprise-Aplications\\src\\Services\\NSE.Pedido.API\\NSE.Pedido.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\luiz.salles\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.14\\microsoft.visualstudio.azure.containers.tools.targets.1.10.14.nupkg.sha512"
   ],

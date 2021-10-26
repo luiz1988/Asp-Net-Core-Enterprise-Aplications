@@ -20,18 +20,9 @@ namespace NSE.Core.Messages
 
         protected async Task<FluentValidation.Results.ValidationResult> PersistirDados(IUnitOfWork uow)
         {
-            try
-            {
-                if (await uow.Commit()) AdicionarErro("Houve um erro ao persistir os dados");
+            if (await uow.Commit()) AdicionarErro("Houve um erro ao persistir os dados");
 
-                return ValidationResult;
-            }
-            catch (System.Exception EX)
-            {
-
-                throw EX;
-            }
-           
+            return ValidationResult;
         }
     }
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zdfJSfizOHfFCJi6qy082YX/YQi844ODanmM/vVUMFem1TEOM/d4jQgptBhvbcn7QcQL26mR+pB0TG01iobK1g==",
+  "dgSpecHash": "YzLGJP7n7eUXbzyFFrcPimM+e/P1BB4/37HKTxAgVjHGTI3Ev4H9anYNY7rjk6dEzJrC3laG3QfALCOyHck/kQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\luiz.salles\\source\\repos\\NerdStoreEnterprise\\src\\Services\\NSE.Clientes.API\\NSE.Clientes.API.csproj",
+  "projectFilePath": "C:\\Users\\luiz.salles\\source\\repos\\Asp-Net-Core-Enterprise-Aplications\\src\\Services\\NSE.Clientes.API\\NSE.Clientes.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\luiz.salles\\.nuget\\packages\\easynetq\\5.1.1\\easynetq.5.1.1.nupkg.sha512",
     "C:\\Users\\luiz.salles\\.nuget\\packages\\fluentvalidation\\10.3.3\\fluentvalidation.10.3.3.nupkg.sha512",
@@ -126,7 +126,7 @@
     "C:\\Users\\luiz.salles\\.nuget\\packages\\system.linq.expressions\\4.3.0\\system.linq.expressions.4.3.0.nupkg.sha512",
     "C:\\Users\\luiz.salles\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
     "C:\\Users\\luiz.salles\\.nuget\\packages\\system.net.http\\4.3.0\\system.net.http.4.3.0.nupkg.sha512",
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.net.nameresolution\\4.3.0\\system.net.nameresolution.4.3.0.nupkg.sha512",
+    "C:\\Users\\luiz.salles\\.nuget\\packages\\system.net.nameresolution\\4.3.0\\system.net.nameresolution.4.3.0.nupkg.sha512",
     "C:\\Users\\luiz.salles\\.nuget\\packages\\system.net.primitives\\4.3.0\\system.net.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\luiz.salles\\.nuget\\packages\\system.net.sockets\\4.3.0\\system.net.sockets.4.3.0.nupkg.sha512",
     "C:\\Users\\luiz.salles\\.nuget\\packages\\system.objectmodel\\4.3.0\\system.objectmodel.4.3.0.nupkg.sha512",

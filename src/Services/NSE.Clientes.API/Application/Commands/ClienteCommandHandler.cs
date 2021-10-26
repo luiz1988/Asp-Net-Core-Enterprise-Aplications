@@ -34,6 +34,7 @@ namespace NSE.Clientes.API.Application.Commands
 
             _clienteRepository.Adicionar(cliente);
 
+
             if (!await _clienteRepository.UnitOfWork.Commit()) AdicionarErro("Houve um erro ao persistir os dados");
 
 

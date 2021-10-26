@@ -8,17 +8,27 @@ namespace NSE.WebApp.MVC.Controllers
     {
         protected bool ResponsePossuiErros(ResponseResult resposta)
         {
-            if (resposta != null && resposta.Errors.Mensagens.Any())
+            if (resposta != null && resposta.Errors != null && resposta.Errors.Mensagens.Any())
             {
-                foreach (var mensagem in resposta.Errors.Mensagens) //Varendo a lista de mensagens de erro do nosso objeto resposta do tipo ResponseResult
+                foreach (var mensagem in resposta.Errors.Mensagens)
                 {
-                    ModelState.AddModelError(string.Empty, mensagem); // Agora adicionaremos as mensagens uma a uma na nossa ModelState para que possamos repassar essas mensagens de erro para os nossos usuários!
+                    ModelState.AddModelError(string.Empty, mensagem);
                 }
 
                 return true;
             }
 
             return false;
+        }
+
+        protected void AdicionarErroValidacao(string mensagem)
+        {
+            ModelState.AddModelError(string.Empty, mensagem);
+        }
+
+        protected bool OperacaoValida()
+        {
+            return ModelState.ErrorCount == 0;
         }
     }
 }
